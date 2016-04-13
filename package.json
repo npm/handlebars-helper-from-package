@@ -1,0 +1,31 @@
+{
+  "name": "handlebars-helper-from-package",
+  "version": "1.0.0",
+  "description": "Load partials directly from packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/handlebars-helper-from-package.git"
+  },
+  "keywords": [
+    "handlebars",
+    "partial"
+  ],
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/handlebars-helper-from-package/issues"
+  },
+  "homepage": "https://github.com/npm/handlebars-helper-from-package#readme",
+  "peerDependencies": {
+    "handlebars": "^4.0.5"
+  },
+  "devDependencies": {
+    "@aredridel/test-packaged-partial": "^1.0.0",
+    "handlebars": "^4.0.5",
+    "tap": "^5.7.1"
+  }
+}
